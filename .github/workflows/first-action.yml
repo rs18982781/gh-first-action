@@ -1,5 +1,5 @@
 name: First workflow
-on: worfklow_dispatch   # define event
+on: workflow_dispatch   # define event,Enables manual trigger from GitHub UI
 jobs:
   first-job:  #This is unreserved identifier
     runs-on:  ubuntu-latest
