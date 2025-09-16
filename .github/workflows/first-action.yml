@@ -1,0 +1,10 @@
+name: First workflow
+on: worfklow_dispatch   # define event
+jobs:
+  first-job:  #This is unreserved identifier
+    runs-on:  ubuntu-latest
+    steps:
+      - name: Print Greeting
+        run: echo "Hello_world!!!"
+      - name: print GoodBye
+        run: echo "Done -bye!!!"
